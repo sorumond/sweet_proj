@@ -80,11 +80,8 @@ h2 {
 .conteiner {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 77px;
-  margin-top: 119px;
   width: 1100px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 119px auto 77px auto;
 }
 
 .subscribe {
@@ -137,6 +134,8 @@ h2 {
   border: 2px solid var(--email-button_2);
 }
 
+/* Here start right sight block */
+
 .side-bar {
   display: flex;
   flex-direction: column;
@@ -164,15 +163,13 @@ h2 {
   background-color: var(--email-button_2);
 }
 
-.menu-icon {
-  border: 2px solid var(--green);
-  width: 22px;
-  height: 22px;
-}
-
-.icon-bar a + a {
+.icon-bar a {
   width: 24px;
   height: 24px;
+}
+
+.icon-bar a:focus {
+  border: 2px solid var(--green);
 }
 
 h3 {

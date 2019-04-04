@@ -26,6 +26,7 @@ footer {
 
 .footer_news_list {
   padding: 0;
+  margin-top: 0;
 }
 
 .footer_news_list li {
@@ -53,6 +54,7 @@ h5 {
   font-family: Gilroy;
   font-size: 14px;
   color: var(--white);
+  margin-top: 0;
 }
 
 .right-footer {
@@ -66,6 +68,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   width: 470px;
+  margin-top: 0;
 }
 
 .right-footer p {

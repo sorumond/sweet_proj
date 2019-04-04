@@ -12,6 +12,8 @@
   --light-brown: #ae2968;
   --email-button_2: #e2eaf0;
   --green: #6bca3e;
+  --pink-red: rgba(218, 67, 83, 0.1);
+  --red: rgba(218, 67, 83, 0.4);
 }
 
 body {
@@ -114,6 +116,11 @@ h2 {
   border: 2px solid var(--green);
 }
 
+.email_input:invalid {
+  background: var(--pink-red);
+  border: 2px solid var(--red);
+}
+
 .email_button {
   border-radius: 22px;
   width: 45px;
@@ -151,6 +158,10 @@ h2 {
   border-radius: 24px;
   display: flex;
   justify-content: center;
+}
+
+.icon-bar a:hover {
+  background-color: var(--email-button_2);
 }
 
 .menu-icon {

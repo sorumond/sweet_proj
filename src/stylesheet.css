@@ -103,14 +103,14 @@ h2 {
   background: var(--email-button_2);
 }
 
+.email_input:focus:valid {
+  border: 2px solid var(--green);
+}
+
 .email_input:focus {
   background: var(--white);
   border: 2px solid var(--email-button_2);
   border-radius: 30px;
-}
-
-.email_input:focus:valid {
-  border: 2px solid var(--green);
 }
 
 .email_input:invalid {
@@ -128,10 +128,18 @@ h2 {
   top: 8px;
   right: 10px;
   cursor: pointer;
+  background: url("image/arrow.svg") var(--white);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
 }
 
 .email_input:focus + .email_button {
   border: 2px solid var(--email-button_2);
+}
+
+.email_input:valid + .email_button:active {
+  border: 2px solid var(--green);
+  background: url("image/green_arrow.svg") no-repeat 50% 50%;
 }
 
 /* Here start right sight block */

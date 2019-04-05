@@ -1,10 +1,10 @@
-# Project Name
+# Sweet candy project 
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://sorumond.github.io/sweet_proj/src/)
 
-### Description
+### Sweet candy
 
-Tell about your project
+Project where all big problem have been solved by "Display: flex;". Realy, its everywhere. 
 
 ### Technologies are used
 

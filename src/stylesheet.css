@@ -220,7 +220,7 @@ h3 {
 }
 
 .list .button:hover {
-  background: var(--email-button)
+  background: var(--email-button);
 }
 
 .sidebar_button {

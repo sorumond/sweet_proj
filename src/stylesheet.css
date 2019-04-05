@@ -122,15 +122,12 @@ h2 {
   border-radius: 22px;
   width: 45px;
   height: 45px;
-  background: var(--white);
   border: none;
   position: absolute;
   top: 8px;
   right: 10px;
   cursor: pointer;
-  background: url("image/arrow.svg") var(--white);
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
+  background: url("image/arrow.svg") var(--white) no-repeat 50% 50%;
 }
 
 .email_input:focus + .email_button {
@@ -142,6 +139,9 @@ h2 {
   background: url("image/green_arrow.svg") no-repeat 50% 50%;
 }
 
+.email_input:invalid + .email_button {
+  border: 2px solid var(--red);
+}
 /* Here start right sight block */
 
 .side-bar {

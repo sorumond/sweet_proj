@@ -219,6 +219,10 @@ h3 {
   align-self: center;
 }
 
+.list .button:hover {
+  background: var(--email-button)
+}
+
 .sidebar_button {
   align-self: flex-end;
 }

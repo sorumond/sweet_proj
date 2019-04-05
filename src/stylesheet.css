@@ -223,6 +223,14 @@ h3 {
   background: var(--email-button);
 }
 
+.list .button:active {
+  background: var(--white);
+}
+
+.list .button:active a {
+  color: var(--brown);
+}
+
 .sidebar_button {
   align-self: flex-end;
 }
